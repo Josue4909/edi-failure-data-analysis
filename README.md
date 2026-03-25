@@ -1,4 +1,10 @@
 # EDI Failure Data Analysis
+
+## Sample Visualization
+
+![EDI Failures](edi_failures_chart.png)
+
+This project analyzes EDI (Electronic Data Interchange) transaction failures...
 This project analyzes EDI (Electronic Data Interchange) transaction failures to identify error patterns, root causes, and opportunities to improve data processing performance.
 
 ## Project Overview
