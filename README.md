@@ -1,41 +1,27 @@
 # EDI Failure Data Analysis
 
-## Sample Visualization
+## 📊 Overview
+This project analyzes EDI (Electronic Data Interchange) transaction failures to identify patterns, root causes, and opportunities to improve data processing performance.
 
+## 📈 Key Insights
+- Trading Partner B had the highest failure rate
+- Failure patterns vary across document types (850, 810, 856)
+- Monthly trends show increasing failures in March
+
+## 🛠 Tools Used
+- Python
+- Pandas
+- Matplotlib
+
+## 📷 Sample Visualization
 ![EDI Failures](edi_failures_chart.png)
 
-This project analyzes EDI (Electronic Data Interchange) transaction failures...
-This project analyzes EDI (Electronic Data Interchange) transaction failures to identify error patterns, root causes, and opportunities to improve data processing performance.
+## 📌 What I Learned
+- Data cleaning and grouping using pandas
+- Identifying business patterns from raw data
+- Creating visual insights for decision-making
 
-## Project Overview
-In many organizations, EDI transaction failures can delay operations and impact business performance. This project simulates real-world analysis by identifying trends in failed transactions and recommending solutions to improve throughput and reduce errors.
-
-## Tools Used
-- Python
-- pandas
-- numpy
-- matplotlib
-- Jupyter Notebook
-
-## Key Tasks
-- Cleaned and prepared EDI transaction failure data
-- Performed exploratory data analysis (EDA)
-- Identified recurring error patterns and failure trends
-- Analyzed high-impact trading partners and document types
-- Visualized failure rates and performance metrics
-
-## Key Insights
-- Identified the most common causes of transaction failures
-- Detected patterns in failure frequency over time
-- Highlighted high-risk partners contributing to errors
-- Suggested improvements to reduce failure rates
-
-## Business Impact
-- Helps reduce manual troubleshooting time
-- Improves transaction success rate
-- Supports better decision-making through data insights
-
-## Future Improvements
-- Build a Power BI dashboard for real-time monitoring
-- Develop a machine learning model to predict failures
-- Automate reporting for business users
+## 🚀 Next Steps
+- Add Power BI dashboard version
+- Expand dataset for real-world simulation
+- Add root cause classification model
